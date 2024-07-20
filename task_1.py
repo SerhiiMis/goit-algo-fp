@@ -8,9 +8,9 @@ class LinkedList:
         self.head = None  
 
     def insert_at_beginning(self, data):
-        new_node = Node(data)  # Створення нового вузла
+        new_node = Node(data)  # Creating a new node
         new_node.next = self.head  
-        self.head = new_node  # Голова списку вказує на новий вузол
+        self.head = new_node  # The head of the list points to the new node
 
     def insert_at_end(self, data):
         new_node = Node(data)  
